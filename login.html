@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Vinyl.</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common-login.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="backdrop"></div>
+    <div id="wrap">
+        <h1>Welcome to <span>Vinyl.</span></h1>
+        <div id="form-section">
+            <p class="title">아이디와 패스워드를 입력하세요.</p>
+            <form action="#" method="post" id="login-form" name="login-form">
+                <p>
+                    <label for="userID"><span class="hide">ID</span></label>
+                    <input type="text" id="userID" name="userID" placeholder="ID">
+                </p>
+                <p>
+                    <label for="userPW"><span class="hide">Password</span></label>
+                    <input type="password" id="userPW" name="userPW" placeholder="Password">
+                </p>
+                <p class="btns">
+                    <button type="button" class="btn-signup">SIGN UP</button>
+                    <button type="submit" class="btn-proceed">LOGIN</button>
+                    <a href="findpw.html" class="btn-findpw">Forgot Password?</a>
+                </p>
+            </form>
+        </div>
+        <div id="sns">
+            <h2>BEGIN WITH SNS</h2>
+            <ul>
+                <li><a href="#"><span class="hide">Facebook</span></a></li>
+                <li><a href="#"><span class="hide">Google</span></a></li>
+                <li><a href="#"><span class="hide">Apple</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

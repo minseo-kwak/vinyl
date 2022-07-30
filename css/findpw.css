@@ -1,0 +1,50 @@
+h1 {
+    position: absolute;
+    font-style: italic; 
+    font-size: 20px;
+    padding: 0;
+    top: 40px;
+}
+.input p {
+    padding-bottom: 20px;
+}
+.input #afterchk {
+    opacity: 0;
+    transition: 0.3s;
+}
+#find-form {
+    position: relative;
+}
+#find-form label {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    background-image: url(../img/i_mail.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#find-form input, #find-form button {
+    width: 300px;
+    height: 44px;
+    border-radius: 30px;
+}
+#find-form input {
+    margin-bottom: 38px;
+    padding-left: 50px;
+}
+#find-form input::placeholder {
+    font-family: 'Pretendard Variable', sans-serif;
+    font-weight: 150;
+    color: #797979;
+}
+#find-form button {
+    background-color: #DDABAA;
+    transition: 0.3s;
+}
+#find-form button:hover {
+    background-color: #fff;
+    color: #DDABAA;
+}

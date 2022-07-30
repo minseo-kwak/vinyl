@@ -1,0 +1,120 @@
+h1 {
+    padding: 0;
+}
+p.title {
+    padding-bottom: 20px;
+}
+
+#form-section {
+    padding: 30% 0;
+}
+#login-form {
+    width: 300px;
+}
+#login-form p {
+    position: relative;
+}
+#login-form label {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+[for="userID"]{
+    background-image: url(../img/i_id.svg);
+}
+[for="userPW"]{
+    background-image: url(../img/i_pw.svg);
+}
+[for="userPWChk"]{
+    background-image: url(../img/i_pwc.svg);
+}
+#login-form input {
+    width: 300px;
+    border-radius: 30px;
+    height: 44px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+#login-form input::placeholder {
+    font-family: 'Pretendard Variable', sans-serif;
+    font-weight: 150;
+    color: #797979;
+}
+#login-form span {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-weight: 600;
+    display: none;
+    transition: 0.3s;
+}
+#login-form span.non-cord {
+    color: #c65351;
+}
+#login-form span.cord {
+    color: rgb(100, 100, 152);
+}
+
+#login-form .btns {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+#login-form .btns button {
+    width: 144px;
+    height: 44px;
+    border-radius: 30px;
+    background-color: #fff;
+    line-height: 44px;
+    transition: 0.3s;
+}
+#login-form .btns .btn-signup {
+    color: #393939;
+}
+#login-form .btns .btn-signup:hover {
+    background-color: #DDABAA;
+    color: #fff;
+}
+#login-form .btns .btn-proceed {
+    background-color: #DDABAA;
+}
+#login-form .btns .btn-proceed:hover {
+    background-color: #fff;
+    color: #DDABAA;
+}
+#login-form .btns .btn-findpw {
+    position: absolute;
+    top: 60px;
+    right: 22px;
+    font-size: 12px;
+}
+
+#sns ul {
+    display: flex;
+    margin-top: 10px;
+}
+#sns ul li {
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    margin: 0 6px;
+
+    background-image: url(../img/i_facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sns ul li:nth-child(2) {
+    background-image: url(../img/i_google.svg);
+}
+#sns ul li:nth-child(3) {
+    background-image: url(../img/i_apple.svg);
+}
