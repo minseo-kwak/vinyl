@@ -1,0 +1,109 @@
+#wrap {
+    min-width: 280px;
+    max-width: 768px;
+    margin: 0 auto;
+}
+header {
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 40px;
+    color: #696969;
+    text-align: center;
+}
+header .btn-search {
+    background-image: url(../img/i_search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 37px;
+    right: 20px;
+}
+header nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
+.player {
+    background-color: #F2EFEF;
+    height: 66px;
+    line-height: 66px;
+    position: relative;
+}
+.player .btns {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+}
+.player .btns .btn-play {
+    background-image: url(../img/i_play_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 22px;
+    height: 26px;
+    margin-right: 20px;
+}
+.player .btns .btn-forward {
+    background-image: url(../img/i_play_black.svg);
+    background-size: contain;
+    width: 30px;
+    height: 17px;
+}
+
+.gnb {
+    background-color: #EBD7D7;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.gnb > a {
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gnb span {
+    font-size: 12px;
+    font-weight: 580;
+    margin-top: 8px;
+}
+.gnb .btn-collection {
+    background-image: url(../img/i_collection.svg);
+    width: 27px;
+    height: 27px;
+}
+.gnb .btn-magazine {
+    background-image: url(../img/i_magazine.svg);
+    width: 27px;
+    height: 27px;
+}
+
+.btn-turntable {
+    background-image: url(../img/symbol.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home {
+    background-image: url(../img/symbol_on.png);
+}
