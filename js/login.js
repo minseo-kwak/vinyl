@@ -5,9 +5,6 @@ $(function(){
     $('.btn-proceed').click(function(){
         location.href = 'turntable.html'
     });
-    $('.btn-prev').click(function(){
-        history.back();
-    });
 
     //가입 시 비밀번호 일치 여부 확인
     $('#userPWChk').keyup(function(){

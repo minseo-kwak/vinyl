@@ -47,6 +47,9 @@ header nav {
     display: flex;
     align-items: center;
 }
+.player .btns button {
+    text-indent: -9999px;
+}
 .player .btns .btn-play {
     background-image: url(../img/i_play_black.svg);
     background-repeat: no-repeat;
@@ -106,4 +109,15 @@ header nav {
 }
 .home {
     background-image: url(../img/symbol_on.png);
+}
+
+.btn-prev {
+    background-image: url(../img/i_back_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 12px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 37px;
 }

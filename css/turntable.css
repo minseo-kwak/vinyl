@@ -43,12 +43,6 @@ section ul li {
     font-weight: 500;
     margin-bottom: 4px;
 }
-.txt-box .artist {}
-
-.album-list {}
-.album-list li img {
-    /* border: 1px solid red; */
-}
 
 .song-list {
     width: 818px;
@@ -117,6 +111,7 @@ section ul li {
 #recommend-3 .album .cover-box .cover {
     width: 170px;
     margin-right: 50px;
+    border-radius: 4px;
 }
 #recommend-3 .cover-box .genre-label {
     position: absolute;
@@ -137,7 +132,7 @@ section ul li {
     width: 150px;
     position: absolute;
     top: 8px;
-    left: 180px;
+    left: 50%;
     z-index: -1;
 }
 
@@ -151,4 +146,3 @@ section ul li {
     font-style: italic;
     font-weight: 600;
 }
-#recommend-3 .info .artist {}
