@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search — Vinyl</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/search.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+   <header>
+      <h1>Search</h1>
+      <button class="top-bar"><span class="hide">Top Bar/Prev</span></button>
+      <div id="wrap">
+        <div class="select">
+            <p>
+                <input type="radio" id="in-vinyl" name="search-opt" checked><label for="in-vinyl">Vinyl</label>
+                <span class="about-opt active">Vinyl에서</span>
+            </p>
+            <p>
+                <input type="radio" id="in-collection" name="search-opt"><label for="in-collection" class="material-symbols-outlined">library_music</label>
+                <span class="about-opt">Collection에서</span>
+            </p>
+          </div>
+          <form action="#">
+            <label for="searchword" class="hide">Search</label>
+            <input type="text" id="searchword" placeholder="찾고 싶은 것을 입력하세요.">
+            <button type="button" class="btn-box-search">Search</button>
+          </form>
+      </div>
+      <nav>
+         <div class="player">
+            <div id="inner-wrap">
+               <a href="player.html" class="title">바이닐을 고르세요.</a>
+               <div class="btns">
+                  <button class="btn-play">Play</button>
+                  <button class="btn-forward">Fast Forward</button>
+               </div>
+            </div>
+         </div>
+         <div class="gnb">
+            <a href="collection.html" class="gnb-1">
+               <button class="btn-collection"></button>
+               <span>COLLECTION</span>
+            </a>
+            <a href="magazine.html" class="gnb-2">
+               <button class="btn-magazine"></button>
+               <span>MAGAZINE</span>
+            </a>
+            <button class="btn-turntable"><span class="hide">Turntable</span></button>
+         </div>
+      </nav>
+   </header>
+
+   <div id="wrap">
+    <section id="genre">
+        <div id="inner-wrap">
+            <ul>
+                <li><a href="player.html">
+                    <p class="title">Pop</p>
+                    <button class="btn-play">PLAY</button>
+                </a></li>
+                <li><a href="player.html">
+                    <p class="title">Alternative</p>
+                    <button class="btn-play">PLAY</button>
+                </a></li>
+                <li><a href="player.html">
+                    <p class="title">R&B/Soul</p>
+                    <button class="btn-play">PLAY</button>
+                </a></li>
+                <li><a href="player.html">
+                    <p class="title">Country</p>
+                    <button class="btn-play">PLAY</button>
+                </a></li>
+                <li><a href="player.html">
+                    <p class="title">Dance</p>
+                    <button class="btn-play">PLAY</button>
+                </a></li>
+            </ul>
+        </div>
+    </section>
+   </div>
+   <footer class="hide">Vinyl &copy; 2022</footer>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="js/common.js"></script>
+   <script src="js/search.js"></script>
+</body>
+</html>

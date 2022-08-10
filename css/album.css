@@ -109,7 +109,8 @@
 }
 #album-jacket .btn-play {
     background-image: url(../img/i_play.svg);
-    background-position: 18px center;
+    background-position: 19px center;
+    background-size: 30%;
     margin-right: 10px;
 }
 #album-jacket .btn-shuffle {
@@ -125,7 +126,7 @@
 }
 #tracklist ul li {
     border-bottom: 0.7px solid #E0E0E0;
-    padding: 12px 0;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;

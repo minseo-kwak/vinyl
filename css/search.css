@@ -1,0 +1,147 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+header {
+    height: inherit;
+    background-color: #fff;
+}
+header h1 {
+    margin-top: 66px;
+}
+header .top-bar {
+    width: 40px;
+    height: 4px;
+    background-color: #696969;
+    border-radius: 4px;
+    position: absolute;
+    top: 46px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header .select {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+header .select input[type=radio] {
+    display: none;
+}
+header .select input[type=radio]+label {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+header .select input[type=radio]+label[for=in-vinyl] {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 13px;
+}
+header .select input[type=radio]+label[for=in-collection] {
+    font-size: 20px;
+}
+header .select input[type=radio]:checked+label {
+    background-color: #DDABAA;
+}
+header .select p {
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .select p span {
+    margin-top: 10px;
+    font-size: 14px;
+}
+header .select p span.active {
+    font-weight: 500;
+}
+
+header form {
+    margin: 20px 0;
+    position: relative;
+}
+header form input {
+    background-color: #F2EFEF;
+    height: 44px;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 24px;
+    padding-left: 60px;
+}
+header form input::placeholder {
+    font-family: 'Pretendard Variable', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #797979;
+}
+header form .btn-box-search {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/i_search.svg);
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    text-indent: -9999px;
+}
+
+#genre {
+    margin-top: 310px;
+    margin-bottom: 162px;
+}
+#genre ul li {
+    color: #fff;
+    margin-bottom: 8px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(../img/genre/pop.png);
+    background-size: cover;
+    background-position-y: -70px;
+}
+#genre ul li:nth-child(2) {
+    background-image: url(../img/genre/alternative.png);
+    background-position-y: -100px;
+}
+#genre ul li:nth-child(3) {
+    background-image: url(../img/genre/rnb.png);
+}
+#genre ul li:nth-child(4) {
+    background-image: url(../img/genre/country.png);
+    background-position-y: -160px;
+}
+#genre ul li:nth-child(5) {
+    background-image: url(../img/genre/dance.png);
+    background-position-y: -100px;
+}
+#genre ul li a .title {
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 34px;
+    padding-left: 20px;
+}
+#genre ul li a .btn-play {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    background-image: url(../img/i_play.svg);
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 8px center;
+    width: 52px;
+    height: 20px;
+    border: 0.5px solid #fff;
+    border-radius: 4px;
+    text-align: right;
+    margin-left: 20px;
+    margin-top: 6px;
+}

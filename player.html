@@ -27,92 +27,89 @@
         <button class="top-bar"><span class="hide">Top Bar/Prev</span></button>
 
         <div id="player-inner-wrap">
-        <section id="cover">
-            <div class="cover-box">
-                <img src="img/album/album00.png" alt="Harry Styles" class="cover">
-            </div>
-            <img src="img/lp.png" alt="lp" class="lp">
-            <img src="img/needle.png" alt="needle" class="needle">
-        </section>
-        <section id="track-info">
-            <p class="title">Sign of the Times</p>
-            <span class="artist">Harry Styles ― Harry Styles</span>
-            <button class="btn-view-list"><span class="material-symbols-outlined">list_alt</span></button>
-            <button class="btn-add-collection"><span class="material-symbols-outlined">library_music</span></button>
-        </section>
-        <section id="controls">
-            <div class="progress">
-                <div class="bar"></div>
-                <span class="start">0:00</span>
-                <span class="end">-5:41</span>
-            </div>
-            <div class="btns">
-                <button class="btn-rewind">Fast Rewind</button>
-                <button class="btn-pause-play">Pause/Play</button>
-                <button class="btn-fast-forward">Fast Forward</button>
-            </div>
-            <div class="volume">
-                <label for="volume-control">VOLUME</label>
-                <input type="range" id="volume-control">
-            </div>
-        </section>
+            <section id="cover">
+                <img src="img/coverset.png" alt="Sign of the Times" class="coverset">
+            </section>
+            <section id="track-info">
+                <p class="title">Sign of the Times</p>
+                <span class="artist">Harry Styles ― Harry Styles</span>
+                <button class="btn-view-list"><span class="material-symbols-outlined">list_alt</span></button>
+                <button class="btn-add-collection"><span class="material-symbols-outlined">library_music</span></button>
+                <div class="progress">
+                    <div class="bar"></div>
+                    <span class="start">0:00</span>
+                    <span class="end">-5:41</span>
+                </div>
+            </section>
+            <section id="controls">
+                <div class="btns">
+                    <button class="btn-rewind">Fast Rewind</button>
+                    <button class="btn-pause-play">Pause/Play</button>
+                    <button class="btn-fast-forward">Fast Forward</button>
+                </div>
+                <div class="volume">
+                    <label for="volume-control">VOLUME</label>
+                    <input type="range" id="volume-control">
+                </div>
+            </section>
 
-        <section id="playlist">
-            <div class="options">
-                <button class="btn-shuffle">Shuffle</button>
-                <button class="btn-repeat">Repeat</button>
-                <button class="btn-infinite">Infinite</button>
-            </div>
-            <div class="play-tracklist">
-                <ul>
-                    <li>
-                        <span>1</span>
-                        <p>Meet Me in the Hallway</p>
-                    </li>
-                    <li>
-                        <span>2</span>
-                        <p>Sign of the Times</p>
-                    </li>
-                    <li>
-                        <span>3</span>
-                        <p>Carolina</p>
-                    </li>
-                    <li>
-                        <span>4</span>
-                        <p>Two Ghosts</p>
-                    </li>
-                    <li>
-                        <span>5</span>
-                        <p>Sweet Creature</p>
-                    </li>
-                    <li>
-                        <span>6</span>
-                        <p>Only Angel</p>
-                    </li>
-                    <li>
-                        <span>7</span>
-                        <p>Kiwi</p>
-                    </li>
-                    <li>
-                        <span>8</span>
-                        <p>Ever Since New York</p>
-                    </li>
-                    <li>
-                        <span>9</span>
-                        <p>Woman</p>
-                    </li>
-                    <li>
-                        <span>10</span>
-                        <p>From the Dining Table</p>
-                    </li>
-                </ul>
-            </div>
-        <div class="bottom-blur"></div>
-        </section>
+            <section id="playlist">
+                <div class="options">
+                    <button class="btn-shuffle">Shuffle</button>
+                    <button class="btn-repeat">Repeat</button>
+                    <button class="btn-infinite">Infinite</button>
+                </div>
+                <div class="play-tracklist">
+                    <ul>
+                        <li>
+                            <span>1</span>
+                            <p>Meet Me in the Hallway</p>
+                        </li>
+                        <li>
+                            <span>2</span>
+                            <p class="currently-playing">Sign of the Times</p>
+                        </li>
+                        <li>
+                            <span>3</span>
+                            <p>Carolina</p>
+                        </li>
+                        <li>
+                            <span>4</span>
+                            <p>Two Ghosts</p>
+                        </li>
+                        <li>
+                            <span>5</span>
+                            <p>Sweet Creature</p>
+                        </li>
+                        <li>
+                            <span>6</span>
+                            <p>Only Angel</p>
+                        </li>
+                        <li>
+                            <span>7</span>
+                            <p>Kiwi</p>
+                        </li>
+                        <li>
+                            <span>8</span>
+                            <p>Ever Since New York</p>
+                        </li>
+                        <li>
+                            <span>9</span>
+                            <p>Woman</p>
+                        </li>
+                        <li>
+                            <span>10</span>
+                            <p>From the Dining Table</p>
+                        </li>
+                    </ul>
+                    <div class="bottom-blur"></div>
+                </div>
+            <p class="running-time">RUNNING TIME<span>40분</span></p>
+            </section>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/login.js"></script>
+    <script src="js/player.js"></script>
 </body>
 </html>
