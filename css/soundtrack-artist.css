@@ -1,0 +1,167 @@
+header h1 {
+    font-family: 'Pretendard Variable', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* soundtrack */
+#player {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player img {
+    width: 200px;
+}
+.playbtns {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.playbtns button {
+    width: 42px;
+    height: 42px;
+    background-color: #393939;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+}
+.playbtns .btn-play {
+    background-image: url(../img/i_play.svg);
+    background-size: 30%;
+    background-position: 16px center;
+    margin-bottom: 8px;
+}
+.playbtns .btn-shuffle {
+    background-image: url(../img/i_shuffle.svg);
+    background-size: 45%;
+    background-position: center;
+}
+
+#song-list {
+    padding-bottom: 155px;
+}
+#song-list form {
+    margin-bottom: 10px;
+}
+#song-list .songs li {
+    position: relative;
+}
+#song-list .songs li .btn-add-favorite {
+    position: absolute;
+    top: 23px;
+    right: 0;
+}
+#song-list .songs li:nth-child(1) .visual .pic {
+    background-image: url(../img/album/album11.png);
+}
+#song-list .songs li:nth-child(2) .visual .pic {
+    background-image: url(../img/album/album12.png);
+}
+#song-list .songs li:nth-child(3) .visual .pic {
+    background-image: url(../img/album/album13.png);
+}
+#song-list .songs li:nth-child(4) .visual .pic {
+    background-image: url(../img/album/album10.png);
+}
+#song-list .songs li:nth-child(5) .visual .pic {
+    background-image: url(../img/album/album14.png);
+}
+#song-list .songs li:nth-child(6) .visual .pic {
+    background-image: url(../img/album/album15.png);
+}
+#song-list .songs li:nth-child(7) .visual .pic {
+    background-image: url(../img/album/album16.png);
+}
+
+/* artist */
+#artist-list {
+    margin-top: 90px;
+    margin-bottom: 155px;
+}
+#artist-list form {
+    margin-bottom: 10px;
+}
+#artist-list .songs li:nth-child(1) .visual .pic {
+    background-image: url(../img/genre/dance.png);
+}
+#artist-list .songs li:nth-child(2) .visual .pic {
+    background-image: url(../img/album/album16.png);
+}
+#artist-list .songs li:nth-child(3) .visual .pic {
+    background-image: url(../img/magazine/artist01.png);
+}
+#artist-list .songs li:nth-child(4) .visual .pic {
+    background-image: url(../img/magazine/artist03.png);
+}
+#artist-list .songs li:nth-child(5) .visual .pic {
+    background-image: url(../img/magazine/artist02.png);
+}
+#artist-list .songs li:nth-child(6) .visual .pic {
+    background-image: url(../img/album/album13.png);
+}
+#artist-list .songs li:nth-child(7) .visual .pic {
+    background-image: url(../img/magazine/artist04.png);
+}
+#artist-list .songs li:nth-child(8) .visual .pic {
+    background-image: url(../img/album/album12.png);
+}
+#artist-list .songs li:nth-child(9) .visual .pic {
+    background-image: url(../img/magazine/artist05.png);
+    background-position-y: -10px;
+}
+
+/* artist-detail */
+#artist-player {
+    margin-top: 90px;
+    padding-bottom: 16px;
+    border-bottom: 0.7px solid #E0E0E0;
+}
+#artist-player h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox img {
+    width: 200px;
+}
+.flexbox .playbtns button:not(:last-child) {
+    margin-bottom: 3px;
+}
+.flexbox .playbtns .btn-magazine {
+    background-image: url(../img/i_magazine_white.svg);
+    background-position: center;
+    background-size: 36%;
+}
+
+#artist-album {
+    padding-top: 16px;
+}
+.album-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 20px;
+}
+.album-list li {
+    width: calc(50% - 10px);
+}
+.album-list li .img-box img {
+    border-radius: 6px;
+}
+.album-list li .txt-box {
+    margin-top: 6px;
+}
+.album-list li .txt-box .title {
+    font-weight: 500;
+    padding-bottom: 4px;
+}

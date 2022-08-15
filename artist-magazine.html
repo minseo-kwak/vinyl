@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about Artist — Vinyl</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/magazine-page.css">
+</head>
+<body>
+   <header>
+      <button class="btn-prev"><span class="hide">Prev</span></button>
+      <h1>about Artist</h1>
+      <nav>
+         <div class="player">
+            <div id="inner-wrap">
+               <a href="player.html" class="title">바이닐을 고르세요.</a>
+               <div class="btns">
+                  <button class="btn-play">Play</button>
+                  <button class="btn-forward">Fast Forward</button>
+               </div>
+            </div>
+         </div>
+         <div class="gnb">
+            <a href="collection.html" class="gnb-1">
+               <button class="btn-collection"></button>
+               <span>COLLECTION</span>
+            </a>
+            <a href="magazine.html" class="gnb-2">
+               <button class="btn-magazine"></button>
+               <span>MAGAZINE</span>
+            </a>
+            <button class="btn-turntable home"><span class="hide">Turntable</span></button>
+         </div>
+      </nav>
+   </header>
+   <div id="wrap">
+      <section id="visual">
+        <div class="artist-visual"></div>
+        <a href="player.html" class="btn-play"><span class="hide">Play Randomly</span></a>
+      </section>
+      <section id="artist-info">
+        <h2>Ella Mai</h2>
+        <span class="genre-name">R&B/Soul</span>
+        <p>In multiple interviews, Ella Mai names Lauryn Hill, Chris Brown, Brandy, Destiny’s Child, Alicia Keys, and Mariah Carey as her biggest influences. Vibe<span id="dots">...</span><span id="more"> said her “perception of the powerful emotion is kindred to R&B heartthrobs of the ‘90s, who flooded the radio airwaves with soulful ballads, baby-making tunes, and heart-wrenching break-up anthems.” Rolling Stone described her sound as “a British émigré full of self-confidence and an affinity for classic Nineties R&B.”</span><button onclick="readMore()" id="btn-read-more">MORE</button></p>
+      </section>
+
+      <section id="top-picks">
+        <a href="artist-picks.html" class="heading">Top Picks</a>
+        <div class="scroll">
+           <ul class="song-list">
+              <li>
+                 <a href="player.html">
+                    <div class="lp-box">
+                       <div class="cover"></div>
+                       <div class="cover-c"></div>
+                    </div>
+                    <div class="txt-box">
+                       <p class="title">Boo'd Up</p>
+                       <span class="artist">Ready - EP</span>
+                    </div>
+                 </a>
+              </li>
+              <li>
+                 <a href="player.html">
+                    <div class="lp-box">
+                       <div class="cover"></div>
+                       <div class="cover-c"></div>
+                    </div>
+                    <div class="txt-box">
+                       <p class="title">Trip</p>
+                       <span class="artist">Ella Mai</span>
+                    </div>
+                 </a>
+              </li>
+              <li>
+                 <a href="player.html">
+                    <div class="lp-box">
+                       <div class="cover"></div>
+                       <div class="cover-c"></div>
+                    </div>
+                    <div class="txt-box">
+                       <p class="title">24/7 (feat. Ella Mai)</p>
+                       <span class="artist">Championships</span>
+                    </div>
+                 </a>
+              </li>
+              <li>
+                 <a href="player.html">
+                    <div class="lp-box">
+                       <div class="cover"></div>
+                       <div class="cover-c"></div>
+                    </div>
+                    <div class="txt-box">
+                       <p class="title">Shot Clock</p>
+                       <span class="artist">Ella Mai</span>
+                    </div>
+                 </a>
+              </li>
+              <li>
+                 <a href="player.html">
+                    <div class="lp-box">
+                       <div class="cover"></div>
+                       <div class="cover-c"></div>
+                    </div>
+                    <div class="txt-box">
+                       <p class="title">Not Another Love Song</p>
+                       <span class="artist">Single</span>
+                    </div>
+                 </a>
+              </li>
+           </ul>
+        </div>
+     </section>
+
+      <section id="released">
+         <a href="released.html" class="heading">Released Vinyls</a>
+         <div class="scroll">
+            <ul class="album-list">
+               <li>
+                  <a href="album.html">
+                     <div class="img-box">
+                        <img src="img/lps/lp08.png" alt="Not Another Love Song - Single">
+                     </div>
+                     <div class="txt-box">
+                        <p class="title">Not Another Love Song - Single</p>
+                        <span class="released">2020</span>
+                     </div>
+                  </a>
+               </li>
+               <li>
+                  <a href="album.html">
+                     <div class="img-box">
+                        <img src="img/lps/lp05.png" alt="Ella Mai">
+                     </div>
+                     <div class="txt-box">
+                        <p class="title">Ella Mai</p>
+                        <span class="released">2018</span>
+                     </div>
+                  </a>
+               </li>
+               <li>
+                  <a href="album.html">
+                     <div class="img-box">
+                        <img src="img/album/album18.png" alt="Ready - EP">
+                     </div>
+                     <div class="txt-box">
+                        <p class="title">Ready - EP</p>
+                        <span class="released">2017</span>
+                     </div>
+                  </a>
+               </li>
+               <li>
+                  <a href="album.html">
+                     <div class="img-box">
+                        <img src="img/album/album19.png" alt="CHANGE - EP">
+                     </div>
+                     <div class="txt-box">
+                        <p class="title">CHANGE - EP</p>
+                        <span class="released">2016</span>
+                     </div>
+                  </a>
+               </li>
+               <li>
+                  <a href="album.html">
+                     <div class="img-box">
+                        <img src="img/album/album20.png" alt="Time - EP">
+                     </div>
+                     <div class="txt-box">
+                        <p class="title">Time - EP</p>
+                        <span class="released">2016</span>
+                     </div>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <footer class="hide">Vinyl &copy; 2022</footer>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="js/common.js"></script>
+   <script src="js/magazine.js"></script>
+</body>
+</html>

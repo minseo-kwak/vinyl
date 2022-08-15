@@ -1,0 +1,64 @@
+#collection-btns {
+    margin-top: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E0E0E0;
+}
+#collection-btns p {
+    padding: 0 20px;
+    text-align: center;
+}
+#collection-btns p a {
+    width: 50px;
+    height: 50px;
+    background-color: #393939;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+}
+#collection-btns .btn-favorite {
+    background-image: url(../img/i_book_on.svg);
+    background-position: center;
+    background-size: 25%;
+}
+#collection-btns .btn-song-list {
+    background-image: url(../img/i_songlist.svg);
+    background-position: center 18px;
+}
+#collection-btns .btn-artist-list {
+    background-image: url(../img/i_mic.svg);
+    background-position: center 14px;
+}
+#collection-btns p span {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+#collection-btns p:first-of-type span {
+    font-weight: 500;
+}
+
+#collection-list {
+    padding-top: 16px;
+    padding-bottom: 170px;
+}
+.album-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 20px;
+}
+.album-list li {
+    width: calc(50% - 10px);
+}
+.album-list li .img-box img {
+    border-radius: 6px;
+}
+.album-list li .txt-box {
+    margin-top: 6px;
+}
+.album-list li .txt-box .title {
+    font-weight: 500;
+    padding-bottom: 4px;
+}

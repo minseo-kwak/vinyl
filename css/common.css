@@ -1,11 +1,19 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
 #wrap {
     min-width: 280px;
     max-width: 768px;
     margin: 0 auto;
 }
 header {
-    height: 90px;
-    background-color: rgba(255, 255, 255, 0.9);
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.95);
     position: fixed;
     width: 100%;
     z-index: 5;
@@ -85,6 +93,9 @@ header nav {
     font-weight: 580;
     margin-top: 8px;
 }
+.gnb button {
+    background-repeat: no-repeat;
+}
 .gnb .btn-collection {
     background-image: url(../img/i_collection.svg);
     width: 27px;
@@ -94,6 +105,15 @@ header nav {
     background-image: url(../img/i_magazine.svg);
     width: 27px;
     height: 27px;
+}
+.gnb span.now {
+    color: #B88388;
+}
+.gnb .now-collection {
+    background-image: url(../img/i_collection_now.svg);
+}
+.gnb .now-magazine {
+    background-image: url(../img/i_magazine_now.svg);
 }
 
 .btn-turntable {
@@ -120,4 +140,102 @@ header nav {
     position: absolute;
     left: 20px;
     top: 37px;
+}
+
+.scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+/* 검색창 */
+#search-form {
+    margin: 20px 0;
+    position: relative;
+}
+#search-form input {
+    background-color: #F2EFEF;
+    height: 44px;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 24px;
+    padding-left: 60px;
+}
+#search-form input::placeholder {
+    font-family: 'Pretendard Variable', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #797979;
+}
+#search-form .btn-box-search {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/i_search.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    text-indent: -9999px;
+}
+
+/* 음악 리스트 */
+.songs li a {
+    border-top: 0.7px solid #E0E0E0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.songs li .visual {
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.songs li .visual .pic {
+    border: 0.1px solid #CBCBCB;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-size: cover;
+}
+.songs li .visual .pic-c {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 7px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.songs li .info {
+    margin-left: 16px;
+}
+.songs li .info span {
+    color: #939393;
+    margin-top: 6px;
+    display: block;
+    font-size: 13px;
+}
+
+/* Collection 추가하기 */
+.btn-add-collection span {
+    font-size: 20px;
+    color: #E0E0E0;
+}
+.added {
+    color: #DDABAA !important;
+}
+
+/* Favorite 추가하기 */
+.btn-add-favorite {
+    width: 18px;
+    height: 28px;
+    background-image: url(../img/i_book.svg);
+    margin-top: -23px;
+    margin-right: 30px;
+}
+.btn-add-favorite.on {
+    background-image: url(../img/i_book_on.svg);
 }

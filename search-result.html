@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Result — Vinyl</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/search.css">
+    <style>
+        header {
+            border-bottom: 0.7px solid #E0E0E0;
+            padding-bottom: 10px;
+        }
+        header form {
+            margin-bottom: 10px !important;
+            position: relative;
+        }
+        header form input::placeholder {
+            color: #393939;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+   <header>
+      <h1>Search</h1>
+      <button class="top-bar"><span class="hide">Top Bar/Prev</span></button>
+      <div id="wrap">
+            <form action="#" id="search-form">
+                <label for="searchword"  class="hide">Harry Styles</label>
+                <input type="text" id="searchword" placeholder="Harry Styles">
+                <button type="button" class="btn-box-search">Search</button>
+            </form>
+            <div id="inner-wrap">
+                <ul class="tab">
+                    <li class="on" data-tab="top-results"><a href="#">Top Results</a></li>
+                    <li data-tab="artist"><a href="#">아티스트</a></li>
+                    <li data-tab="vinyl"><a href="#">바이닐</a></li>
+                    <li data-tab="song"><a href="#">노래</a></li>
+                </ul>
+            </div>
+          </div>
+      </div>
+      <nav>
+         <div class="player">
+            <div id="inner-wrap">
+               <a href="player.html" class="title">바이닐을 고르세요.</a>
+               <div class="btns">
+                  <button class="btn-play">Play</button>
+                  <button class="btn-forward">Fast Forward</button>
+               </div>
+            </div>
+         </div>
+         <div class="gnb">
+            <a href="collection.html" class="gnb-1">
+               <button class="btn-collection"></button>
+               <span>COLLECTION</span>
+            </a>
+            <a href="magazine.html" class="gnb-2">
+               <button class="btn-magazine"></button>
+               <span>MAGAZINE</span>
+            </a>
+            <button class="btn-turntable"><span class="hide">Turntable</span></button>
+         </div>
+      </nav>
+   </header>
+
+   <div id="wrap">
+    <div id="inner-wrap">
+    <section id="search-result">
+        <ul id="top-results" class="tabcont on">
+            <li><a href="artist.html">
+                <div class="visual">
+                    <div class="pic hsm"></div>
+                </div>
+                <div class="info">
+                    <p>Harry Styles</p>
+                    <span>아티스트</span>
+                </div>
+            </a></li>
+            <li><a href="album.html">
+                <div class="visual">
+                    <div class="cover hs"></div>
+                </div>
+                <div class="info">
+                    <p>Harry Styles</p>
+                    <span>바이닐 · Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="album.html">
+                <div class="visual">
+                    <div class="cover fl"></div>
+                </div>
+                <div class="info">
+                    <p>Fine Line</p>
+                    <span>바이닐 · Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic hs"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Sign of the Times</p>
+                    <span>노래 · Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic fl"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Watermelon Sugar</p>
+                    <span>노래 · Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic fl"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Adore You</p>
+                    <span>노래 · Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic hs"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Kiwi</p>
+                    <span>노래 · Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic hs"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Sweet Creature</p>
+                    <span>노래 · Harry Styles</span>
+                </div>
+            </a></li>
+        </ul>
+        <ul id="artist" class="tabcont">
+            <li><a href="artist.html">
+                <div class="visual">
+                    <div class="pic hsm"></div>
+                </div>
+                <div class="info">
+                    <p>Harry Styles</p>
+                </div>
+            </a></li>
+            <li><a href="artist.html">
+                <div class="visual">
+                    <div class="pic od"></div>
+                </div>
+                <div class="info">
+                    <p>One Direction</p>
+                </div>
+            </a></li>
+        </ul>
+        <ul id="vinyl" class="tabcont">
+            <li><a href="album.html">
+                <div class="visual">
+                    <div class="cover hs"></div>
+                </div>
+                <div class="info">
+                    <p>Harry Styles</p>
+                    <span>바이닐 · 2017</span>
+                </div>
+            </a></li>
+            <li><a href="album.html">
+                <div class="visual">
+                    <div class="cover fl"></div>
+                </div>
+                <div class="info">
+                    <p>Fine Line</p>
+                    <span>바이닐 · 2019</span>
+                </div>
+            </a></li>
+        </ul>
+        <ul id="song" class="tabcont">
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic hs"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Sign of the Times</p>
+                    <span>Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic fl"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Watermelon Sugar</p>
+                    <span>Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic fl"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Adore You</p>
+                    <span>Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic hs"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Kiwi</p>
+                    <span>Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic hs"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Sweet Creature</p>
+                    <span>Harry Styles</span>
+                </div>
+            </a></li>
+            <li><a href="player.html">
+                <div class="visual">
+                    <div class="pic fl"></div>
+                    <div class="pic-c"></div>
+                </div>
+                <div class="info">
+                    <p>Sunflower, Vol. 6</p>
+                    <span>Harry Styles</span>
+                </div>
+            </a></li>
+        </ul>
+    </section>
+    </div>
+   </div>
+   <footer class="hide">Vinyl &copy; 2022</footer>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="js/common.js"></script>
+   <script src="js/search.js"></script>
+</body>
+</html>

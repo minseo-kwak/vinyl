@@ -18,14 +18,7 @@ section h2 span {
     font-family: 'Pretendard Variable', sans-serif;
     font-weight: 500;
 }
-section .scroll {
-    overflow-x: auto;
-    overflow-y: hidden;
-    scrollbar-width: none;
-}
-section .scroll::-webkit-scrollbar {
-    display: none;
-}
+
 section ul {
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +28,9 @@ section ul {
 section ul li {
     margin-right: 10px;
 }
-
+.img-box img {
+    width: 161px;
+}
 .txt-box {
     margin-top: 10px;
 }

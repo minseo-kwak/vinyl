@@ -18,4 +18,9 @@ $(function(){
     $('.btn-add-collection').click(function(){
         $(this).children().toggleClass('added');
     });
+
+    //add to favorite
+    $('.btn-add-favorite').click(function(){
+        $(this).toggleClass('on');
+    });
 })

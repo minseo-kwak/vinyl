@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite — Vinyl</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/favorite.css">
+</head>
+<body>
+   <header>
+      <button class="btn-prev"><span class="hide">Prev</span></button>
+      <h1>Favorite</h1>
+      <nav>
+         <div class="player">
+            <div id="inner-wrap">
+               <a href="player.html" class="title">바이닐을 고르세요.</a>
+               <div class="btns">
+                  <button class="btn-play">Play</button>
+                  <button class="btn-forward">Fast Forward</button>
+               </div>
+            </div>
+         </div>
+         <div class="gnb">
+            <a href="collection.html" class="gnb-1">
+               <button class="btn-collection now-collection"></button>
+               <span class="now">COLLECTION</span>
+            </a>
+            <a href="magazine.html" class="gnb-2">
+               <button class="btn-magazine"></button>
+               <span>MAGAZINE</span>
+            </a>
+            <button class="btn-turntable"><span class="hide">Turntable</span></button>
+         </div>
+      </nav>
+   </header>
+   <div id="wrap">
+      <section class="featuring-artist">
+        <h2>Featuring</h2>
+        <div class="scroll">
+            <ul class="artist-list">
+                <li>
+                    <a href="artist-magazine.html">
+                        <img src="img/magazine/artist01.png" alt="Ella Mai">
+                        <p>Ella Mai</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-magazine.html">
+                        <img src="img/magazine/artist02.png" alt="H.E.R.">
+                        <p>H.E.R.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-magazine.html">
+                        <img src="img/magazine/artist03.png" alt="Harry Styles">
+                        <p>Harry Styles</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-magazine.html">
+                        <img src="img/magazine/artist04.png" alt="MAX">
+                        <p>MAX</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-magazine.html">
+                        <img src="img/magazine/artist05.png" alt="ZAYN">
+                        <p>ZAYN</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-magazine.html">
+                        <img src="img/magazine/artist06.png" alt="Rihanna">
+                        <p>Rihanna</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+      </section>
+      <div id="inner-wrap">
+        <section class="favorite-list">
+            <ul class="songs">
+                <li>
+                    <a href="player.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                            <div class="pic-c"></div>
+                        </div>
+                        <div class="info">
+                            <p>Trip</p>
+                            <span>Ella Mai</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="player.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                            <div class="pic-c"></div>
+                        </div>
+                        <div class="info">
+                            <p>Fingers</p>
+                            <span>ZAYN</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="player.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                            <div class="pic-c"></div>
+                        </div>
+                        <div class="info">
+                            <p>Sign of the Times</p>
+                            <span>Harry Styles</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="player.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                            <div class="pic-c"></div>
+                        </div>
+                        <div class="info">
+                            <p>Needed Me</p>
+                            <span>Rihanna</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="player.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                            <div class="pic-c"></div>
+                        </div>
+                        <div class="info">
+                            <p>As I Am</p>
+                            <span>H.E.R.</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+      </div>
+      <footer class="hide">Vinyl &copy; 2022</footer>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="js/common.js"></script>
+</body>
+</html>

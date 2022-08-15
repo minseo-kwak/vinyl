@@ -1,0 +1,87 @@
+section {
+    margin-left: 20px;
+}
+section h2 {
+    margin-top: 34px;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+#featured {
+    margin-top: 90px;
+}
+.artist-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1030px;
+}
+.artist-list li {
+    margin-right: 10px;
+    position: relative;
+}
+.artist-list li img {
+    width: 160px;
+    height: 216px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.artist-list li p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+#new-releases h2 {
+    margin-bottom: 3px;
+}
+#new-releases span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 14px;
+}
+.album-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 866px;
+}
+.album-list li {
+    margin-right: 10px;
+}
+.album-list li .img-box img {
+    width: 161px;
+}
+.album-list li .txt-box {
+    margin-top: 10px;
+}
+.album-list li .txt-box .title {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+#genre {
+    padding-bottom: 180px;
+}
+.genre-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 698px;
+}
+.genre-list li {
+    margin-right: 14px;
+}
+.genre-list li img {
+    width: 124px;
+    height: 124px;
+    object-fit: cover;
+    border-radius: 62px;
+}
+.genre-list li p {
+    text-align: center;
+    padding-top: 8px;
+}

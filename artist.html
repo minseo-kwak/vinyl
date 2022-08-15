@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아티스트 — Vinyl</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/soundtrack-artist.css">
+</head>
+<body>
+   <header>
+      <button class="btn-prev"><span class="hide">Prev</span></button>
+      <h1>아티스트</h1>
+      <nav>
+         <div class="player">
+            <div id="inner-wrap">
+               <a href="player.html" class="title">바이닐을 고르세요.</a>
+               <div class="btns">
+                  <button class="btn-play">Play</button>
+                  <button class="btn-forward">Fast Forward</button>
+               </div>
+            </div>
+         </div>
+         <div class="gnb">
+            <a href="collection.html" class="gnb-1">
+               <button class="btn-collection now-collection"></button>
+               <span class="now">COLLECTION</span>
+            </a>
+            <a href="magazine.html" class="gnb-2">
+               <button class="btn-magazine"></button>
+               <span>MAGAZINE</span>
+            </a>
+            <button class="btn-turntable"><span class="hide">Turntable</span></button>
+         </div>
+      </nav>
+   </header>
+   <div id="wrap">
+        <section id="artist-list">
+            <form action="#" id="search-form">
+                <label for="searchword" class="hide">Search</label>
+                <input type="text" id="searchword" placeholder="아티스트 찾기">
+                <button type="button" class="btn-box-search">Search</button>
+            </form>
+            <div id="inner-wrap">
+              <ul class="songs">
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>Ariana Grande</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>Charlie Puth</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>Ella Mai</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>Harry Styles</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>H.E.R.</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>Mae Muller</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>MAX</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>Summer Walker</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artist-detail.html">
+                        <div class="visual">
+                            <div class="pic"></div>
+                        </div>
+                        <div class="info">
+                            <p>ZAYN</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+          </div>
+        </section>
+        <footer class="hide">Vinyl &copy; 2022</footer>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="js/common.js"></script>
+   <script>
+    $('#search-form input').on('keyup', function(){
+        myFilter();
+    })
+
+    function myFilter(){
+        var value = $('#searchword').val().toLowerCase();
+        $('.songs li').filter(function() {
+          $(this).toggle($(this).find('.info').text().toLowerCase().indexOf(value) > -1)
+        });
+    };
+   </script>
+</body>
+</html>
