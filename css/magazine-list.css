@@ -1,0 +1,77 @@
+/* TOP PICKS */
+/* artist */
+#pick-list {
+    margin-top: 80px;
+    margin-bottom: 155px;
+}
+.songs li {
+    position: relative;
+}
+.songs li:first-child a {
+    border: 0;
+}
+.songs li:nth-child(1) .visual .pic {
+    background-image: url(../img/Lps/lp06.png);
+}
+.songs li:nth-child(3) .visual .pic {
+    background-image: url(../img/Lps/lp07.png);
+}
+.songs li:nth-child(5) .visual .pic {
+    background-image: url(../img/Lps/lp08.png);
+}
+.songs li:nth-child(8) .visual .pic {
+    background-image: url(../img/album/album19.png);
+}
+.songs li .visual .pic.em {
+    background-image: url(../img/Lps/lp05.png);
+}
+.songs li .btn-add-collection {
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+/* genre */
+.pop-list li:nth-child(1) .visual .pic {
+    background-image: url(../img/Lps/lp01.png);
+}
+.pop-list li:nth-child(2) .visual .pic {
+    background-image: url(../img/Lps/lp02.png);
+}
+.pop-list li:nth-child(3) .visual .pic {
+    background-image: url(../img/Lps/lp03.png);
+}
+.pop-list li:nth-child(4) .visual .pic {
+    background-image: url(../img/Lps/lp04.png);
+}
+.pop-list li:nth-child(5) .visual .pic {
+    background-image: url(../img/Lps/lp05.png);
+}
+.pop-list li:nth-child(6) .visual .pic {
+    background-image: url(../img/album/album03.png);
+}
+.pop-list li:nth-child(7) .visual .pic {
+    background-image: url(../img/album/album08.png);
+}
+.pop-list li:nth-child(8) .visual .pic {
+    background-image: url(../img/album/album12.png);
+}
+.pop-list li:nth-child(9) .visual .pic {
+    background-image: url(../img/album/album17.png);
+}
+
+/* RELEASED */
+#released-list {
+    margin-top: 80px;
+    margin-bottom: 170px;
+}
+.album-list li.long .txt-box {
+    margin-top: 5.5px;
+}
+.album-list li.long .txt-box .title {
+    display: inline-block;
+    line-height: 1.25;
+    word-break: break-all;
+}
+.album-list li.long .txt-box .released {
+    font-weight: 250;
+}

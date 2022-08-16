@@ -143,6 +143,9 @@
 #tracklist ul li a > p {
     margin-left: 16px;
 }
+#tracklist ul li .btn-add-collection {
+    margin-top: 4px;
+}
 
 footer {
     margin-top: 14px;

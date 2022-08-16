@@ -40,32 +40,22 @@ section h2 {
 #new-releases h2 {
     margin-bottom: 3px;
 }
-#new-releases span {
+#new-releases > span {
     font-size: 14px;
     display: block;
     margin-bottom: 14px;
 }
-.album-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 866px;
-}
-.album-list li {
-    margin-right: 10px;
-}
-.album-list li .img-box img {
-    width: 161px;
-}
-.album-list li .txt-box {
+
+.txt-box {
     margin-top: 10px;
 }
-.album-list li .txt-box .title {
+.txt-box .title {
     font-weight: 500;
     margin-bottom: 4px;
 }
 
 #genre {
-    padding-bottom: 180px;
+    padding-bottom: 170px;
 }
 .genre-list {
     display: flex;

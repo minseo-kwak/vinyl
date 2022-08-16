@@ -7,7 +7,7 @@ header h1 {
 
 /* soundtrack */
 #player {
-    margin-top: 90px;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,7 +77,7 @@ header h1 {
 
 /* artist */
 #artist-list {
-    margin-top: 90px;
+    margin-top: 80px;
     margin-bottom: 155px;
 }
 #artist-list form {
@@ -145,23 +145,5 @@ header h1 {
 
 #artist-album {
     padding-top: 16px;
-}
-.album-list {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px 20px;
-}
-.album-list li {
-    width: calc(50% - 10px);
-}
-.album-list li .img-box img {
-    border-radius: 6px;
-}
-.album-list li .txt-box {
-    margin-top: 6px;
-}
-.album-list li .txt-box .title {
-    font-weight: 500;
-    padding-bottom: 4px;
+    padding-bottom: 170px;
 }

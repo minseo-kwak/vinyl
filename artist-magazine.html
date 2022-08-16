@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="css/magazine-page.css">
 </head>
 <body>
-   <header>
+   <header id="artist-header">
       <button class="btn-prev"><span class="hide">Prev</span></button>
-      <h1>about Artist</h1>
+      <h1>Artist</h1>
       <nav>
          <div class="player">
             <div id="inner-wrap">
@@ -35,10 +35,10 @@
                <span>COLLECTION</span>
             </a>
             <a href="magazine.html" class="gnb-2">
-               <button class="btn-magazine"></button>
-               <span>MAGAZINE</span>
+               <button class="btn-magazine now-magazine"></button>
+               <span class="now">MAGAZINE</span>
             </a>
-            <button class="btn-turntable home"><span class="hide">Turntable</span></button>
+            <button class="btn-turntable"><span class="hide">Turntable</span></button>
          </div>
       </nav>
    </header>
@@ -124,15 +124,14 @@
       <section id="released">
          <a href="released.html" class="heading">Released Vinyls</a>
          <div class="scroll">
-            <ul class="album-list">
-               <li>
+            <ul class="vinyl-list">
+               <li class="long">
                   <a href="album.html">
                      <div class="img-box">
                         <img src="img/lps/lp08.png" alt="Not Another Love Song - Single">
                      </div>
                      <div class="txt-box">
-                        <p class="title">Not Another Love Song - Single</p>
-                        <span class="released">2020</span>
+                        <p class="title">Not Another Love Song - Single <span class="released">2020</span></p>
                      </div>
                   </a>
                </li>

@@ -1,7 +1,12 @@
 header {
-    background-image: url(../img/magazine/artist-bg1.png);
     background-size: cover;
     height: 80px;
+}
+#artist-header {
+    background-image: url(../img/magazine/artist-bg.png);
+}
+#genre-header {
+    background-image: url(../img/magazine/genre-bg.png);
 }
 header h1 {
     color: #fff;
@@ -96,57 +101,73 @@ section:not(:first-child) {
 }
 .txt-box {
     margin-top: 10px;
-    width: 150px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    width: 160px;
+    height: 38px;
 }
 .txt-box .title {
     font-weight: 500;
     margin-bottom: 4px;
 }
 
-section ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-.song-list {
-    width: 818px;
-}
-.song-list li {
-    margin-right: 13px;
-    width: 150px;
-}
-.song-list li .lp-box {
-    background-image: url(../img/lp.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
+
 .song-list li .lp-box .cover {
-    width: 53px;
-    height: 53px;
-    background-image: url(../img/Lps/lp01.png);
-    background-size: contain;
-    border-radius: 50px;
+    background-image: url(../img/Lps/lp06.png);
 }
-.song-list li:nth-child() .lp-box .cover {}
-.song-list li .lp-box .cover-c {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background-color: #fff;
-    border: 1px solid #393939;
-    border-radius: 50px;
+.song-list li:nth-child(2) .lp-box .cover,
+.song-list li:nth-child(4) .lp-box .cover {
+    background-image: url(../img/lps/lp05.png);
+}
+.song-list li:nth-child(3) .lp-box .cover {
+    background-image: url(../img/lps/lp07.png);
+}
+.song-list li:nth-child(5) .lp-box .cover {
+    background-image: url(../img/lps/lp08.png);
+}
+.song-list li .txt-box .title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 #released {
-    padding-bottom: 180px;
+    padding-bottom: 170px;
 }
-#released h2 {}
+.vinyl-list li .img-box img {
+    border-radius: 3px;
+}
+.vinyl-list li.long .txt-box {
+    margin-top: 7.5px;
+}
+.vinyl-list li.long .txt-box .title {
+    display: inline-block;
+    line-height: 1.25;
+    word-break: break-all;
+}
+.vinyl-list li.long .txt-box .released {
+    font-weight: 250;
+}
+
+/* genre */
+#visual .genre-visual {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/genre/pop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.genre-picks li:nth-child(1) .lp-box .cover {
+    background-image: url(../img/lps/lp01.png);
+}
+.genre-picks li:nth-child(2) .lp-box .cover {
+    background-image: url(../img/lps/lp02.png);
+}
+.genre-picks li:nth-child(3) .lp-box .cover {
+    background-image: url(../img/lps/lp03.png);
+}
+.genre-picks li:nth-child(4) .lp-box .cover {
+    background-image: url(../img/lps/lp04.png);
+}
+.genre-picks li:nth-child(5) .lp-box .cover {
+    background-image: url(../img/lps/lp05.png);
+}

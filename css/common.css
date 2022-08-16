@@ -219,6 +219,78 @@ header nav {
     font-size: 13px;
 }
 
+/* 앨범 리스트 */
+.album-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px 20px;
+}
+.album-list li {
+    width: calc(50% - 10px);
+}
+.album-list li .img-box img {
+    border-radius: 6px;
+}
+.album-list li .txt-box {
+    margin-top: 8px;
+}
+.album-list li .txt-box .title {
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+
+/* 바이닐 스크롤 */
+.vinyl-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 865px;
+}
+.vinyl-list li {
+    margin-right: 10px;
+}
+.vinyl-list li .img-box img {
+    width: 161px;
+    border-radius: 3px;
+}
+
+/* LP 스크롤 */
+.song-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 818px;
+}
+.song-list li {
+    margin-right: 13px;
+    width: 150px;
+}
+.song-list li .lp-box {
+    background-image: url(../img/lp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.song-list li .lp-box .cover {
+    width: 53px;
+    height: 53px;
+    background-size: contain;
+    border-radius: 50px;
+}
+.song-list li .lp-box .cover-c {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border: 1px solid #393939;
+    border-radius: 50px;
+}
+
 /* Collection 추가하기 */
 .btn-add-collection span {
     font-size: 20px;

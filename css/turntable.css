@@ -1,5 +1,5 @@
 #turntable {
-    margin-top: 90px;
+    margin-top: 80px;
 }
 #turntable img {
     width: 100%;
@@ -20,16 +20,7 @@ section h2 span {
 }
 
 section ul {
-    display: flex;
-    flex-wrap: wrap;
     margin-left: 20px;
-    width: 866px;
-}
-section ul li {
-    margin-right: 10px;
-}
-.img-box img {
-    width: 161px;
 }
 .txt-box {
     margin-top: 10px;
@@ -39,30 +30,8 @@ section ul li {
     margin-bottom: 4px;
 }
 
-.song-list {
-    width: 818px;
-}
-.song-list li {
-    margin-right: 13px;
-}
-.song-list li .lp-box {
-    background-image: url(../img/lp.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
 .song-list li .lp-box .cover {
-    width: 53px;
-    height: 53px;
     background-image: url(../img/Lps/lp01.png);
-    background-size: contain;
-    border-radius: 50px;
 }
 .song-list li:nth-child(2) .lp-box .cover {
     background-image: url(../img/Lps/lp02.png);
@@ -75,15 +44,6 @@ section ul li {
 }
 .song-list li:nth-child(5) .lp-box .cover {
     background-image: url(../img/Lps/lp05.png);
-}
-
-.song-list li .lp-box .cover-c {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background-color: #fff;
-    border: 1px solid #393939;
-    border-radius: 50px;
 }
 
 #recommend-3 {
