@@ -115,13 +115,13 @@ section:not(:first-child) {
 }
 .song-list li:nth-child(2) .lp-box .cover,
 .song-list li:nth-child(4) .lp-box .cover {
-    background-image: url(../img/lps/lp05.png);
+    background-image: url(../img/Lps/lp05.png);
 }
 .song-list li:nth-child(3) .lp-box .cover {
-    background-image: url(../img/lps/lp07.png);
+    background-image: url(../img/Lps/lp07.png);
 }
 .song-list li:nth-child(5) .lp-box .cover {
-    background-image: url(../img/lps/lp08.png);
+    background-image: url(../img/Lps/lp08.png);
 }
 .song-list li .txt-box .title {
     overflow: hidden;
@@ -157,17 +157,17 @@ section:not(:first-child) {
     background-position: center;
 }
 .genre-picks li:nth-child(1) .lp-box .cover {
-    background-image: url(../img/lps/lp01.png);
+    background-image: url(../img/Lps/lp01.png);
 }
 .genre-picks li:nth-child(2) .lp-box .cover {
-    background-image: url(../img/lps/lp02.png);
+    background-image: url(../img/Lps/lp02.png);
 }
 .genre-picks li:nth-child(3) .lp-box .cover {
-    background-image: url(../img/lps/lp03.png);
+    background-image: url(../img/Lps/lp03.png);
 }
 .genre-picks li:nth-child(4) .lp-box .cover {
-    background-image: url(../img/lps/lp04.png);
+    background-image: url(../img/Lps/lp04.png);
 }
 .genre-picks li:nth-child(5) .lp-box .cover {
-    background-image: url(../img/lps/lp05.png);
+    background-image: url(../img/Lps/lp05.png);
 }
