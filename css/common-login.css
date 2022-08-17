@@ -11,7 +11,7 @@ body {
     background-color: rgba(95, 19, 19, 0.5);
     backdrop-filter: blur(9px);
 }
-#wrap {
+.wrap {
     position: absolute;
     top: 0;
     left: 0;

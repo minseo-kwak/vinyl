@@ -6,7 +6,7 @@
     'opsz' 48
   }
   
-#wrap {
+.wrap {
     min-width: 280px;
     max-width: 768px;
     margin: 0 auto;

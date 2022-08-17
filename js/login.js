@@ -17,12 +17,3 @@ $(function(){
         }
     });  
 });
-
-const mailchk = document.getElementById('btn-mailchk')
-
-mailchk.addEventListener("click", function(){
-    if(mailchk.innerText === '입력했습니다.') {
-        mailchk.innerText = '로그인하러 가기';
-        document.getElementById('afterchk').style.opacity = '1.0';
-    } else window.location.href = 'login.html';
-});
