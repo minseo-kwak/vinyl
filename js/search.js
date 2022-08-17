@@ -10,6 +10,9 @@ $(function(){
         $('input[type=radio]').siblings('.about-opt').removeClass('active');
         $(this).siblings('.about-opt').addClass('active');
     });
+    $('.btn-play').click(function(){
+        location.href = 'player.html'
+    });
 
     //search 탭메뉴
     $('.tab li').click(function() {

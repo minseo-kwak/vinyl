@@ -47,6 +47,7 @@ header nav {
     height: 66px;
     line-height: 66px;
     position: relative;
+    border-radius: 10px 10px 0 0;
 }
 .player .btns {
     position: absolute;

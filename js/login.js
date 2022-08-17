@@ -1,4 +1,7 @@
 $(function(){
+    $('.btn-prev').click(function(){
+        history.back();
+    });
     $('.btn-signup').click(function(){
         location.href = 'signup.html'
     });

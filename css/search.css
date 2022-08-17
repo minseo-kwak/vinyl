@@ -93,7 +93,7 @@ header .select p span.active {
     padding-top: 34px;
     padding-left: 20px;
 }
-#genre ul li a .btn-play {
+#genre ul li .btn-play {
     display: block;
     font-size: 10px;
     font-weight: 500;
